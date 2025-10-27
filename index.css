@@ -1,0 +1,155 @@
+@font-face {
+    font-family: Lost-Forlorn; /* Гарнитура шрифта */
+    src: url(fonts/Lost....ttf); /* Путь к файлу со шрифтом */
+   }
+
+body{
+    background-color: #FFE3EB;
+    margin: 0;
+    padding: 0;
+}
+
+.first{
+    position: relative;
+    height: 100vh;
+    margin-bottom: 30%;
+}
+
+.o{
+    position: absolute;
+    width: 100%;
+    margin-top: 27%;
+}
+
+.o1{
+    display: none;
+}
+
+.p{
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 38%;
+    z-index: -9999;
+}
+
+.g{
+    position: absolute;
+    margin-left: 36%;
+}
+
+@media screen and (max-width: 400px){
+    .f1{
+        position: absolute;
+        width: 799px;
+        height: 562px;
+        margin-left: -614px;
+        margin-top: -391px;
+    }
+    .the{
+        position: absolute;
+        width: 113px;
+        height: 63px;
+        margin-left: 28px;
+        margin-top: 258px;
+        rotate: -5deg;
+    }
+    .girl{
+        position: absolute;
+        width: 120px;
+        height: 63px;
+        margin-left: 1px;
+        margin-top: 409px;
+        rotate: 3deg;
+    }
+    .best{
+        position: absolute;
+        width: 152px;
+        height: 63px;
+        margin-left: 238px;
+        margin-top: 294px;
+        rotate: 3deg;
+    }
+    .o{
+        display: none;
+    }
+    .o1{
+    position: absolute;
+    display: block;
+    width: 393px;
+    height: 562px;
+    margin-top: 437px;
+    margin-left: 0px;
+    }   
+    .p{
+    width: 264px;
+    height: 339px;
+    margin-top: 238px;
+    margin-left: 63px;
+    }
+    .g{
+    width: 329px;
+    height: 123px;    
+    margin-left: 32px;
+    margin-top: 98px;
+    }
+    .second{
+    position: relative;
+    margin:20% auto;
+    z-index: -999999;
+    font-size: 36px;
+    text-align: center;
+    font-family: Lost-Forlorn;
+    line-height: 115%;
+    overflow: hidden;
+    }
+    .ob1{
+        position: absolute;
+        width: 799px;
+        height: 562px;
+        margin-left: 100px;
+        rotate: -22deg;
+    }
+    .text{
+        width: 288px;
+        margin-left: 53px;
+    }
+    .text2{
+        width: 288px;
+        margin-left: 53px;
+    }
+    .text3{
+        width: 288px;
+        margin-left: 53px;
+        font-size: 64px;
+    }
+    .small{
+        width: 221px;
+        height: 294px;
+        margin: 46px auto;
+        border-radius: 33px;
+    }
+    .music{
+        width: 255px;
+        height: 249px;
+        margin: 46px auto;
+        border-radius: 33px;
+    }
+    .school{
+        width: 298px;
+        height: 194px;
+        margin: 46px auto;
+        border-radius: 33px;
+    }
+    .family{
+        width: 302px;
+        height: 317x;
+        margin: 46px auto;
+        border-radius: 33px;
+    }
+    .gift{
+        width: 317px;
+        height: 317x;
+        margin: 30px auto;
+        border-radius: 33px;
+    }
+}
