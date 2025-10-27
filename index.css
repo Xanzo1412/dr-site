@@ -7,37 +7,160 @@ body{
     background-color: #FFE3EB;
     margin: 0;
     padding: 0;
+    font-size: 30pt;
+    font-family: Lost-Forlorn;
+
 }
 
 .first{
     position: relative;
     height: 100vh;
-    margin-bottom: 30%;
+    margin-bottom: 20%;
+}
+
+.f1{
+    position: absolute;
+    margin-top: -979px;
+    margin-left: -803px;
 }
 
 .o{
     position: absolute;
-    width: 100%;
-    margin-top: 27%;
+    margin-left: 157px;
+    margin-top: 404px;
+    width: 1000px;
+    height: 644px;
+    animation: an 2s forwards;
+}
+
+@keyframes an{
+    0%{margin-top: 604px;}
+    100%{margin-top: 404px;}
 }
 
 .o1{
     display: none;
 }
 
+.o2{
+    position: absolute;
+    margin-left: -484px;
+    margin-top: 350px;
+    width: 1000px;
+    height: 644px;
+    rotate: calc(-18deg);
+    animation: o2 2s forwards;
+}
+@keyframes o2{
+    0%{margin-left: -684px;}
+    100%{margin-left: -484px;}
+}
+
+.o3{
+    position: absolute;
+    margin-left: 810px;
+    margin-top: 204px;
+    width: 600px;
+    animation: o3 2s forwards;
+}
+@keyframes o3{
+    0%{margin-left: 1010px;}
+    100%{margin-left: 810px;}
+}
+
 .p{
     position: absolute;
-    margin-top: 13%;
-    margin-left: 38%;
+    margin-top: 149px;
+    margin-left: 530px;
+    width: 300px;
     z-index: -9999;
+    animation: p 6s forwards;
+}
+@keyframes p{
+    0%{margin-top: 670px;opacity: 0;}
+    100%{margin-top: 204px;opacity: 1;}
 }
 
 .g{
     position: absolute;
-    margin-left: 36%;
+    margin-left: 450px;
+    margin-top: 64px;
+    width: 434px;
+    z-index: -9999999;
+    animation: g 2s forwards;
+}
+@keyframes g{
+    0%{margin-top: -150px;}
+    100%{margin-top: 64px;}
 }
 
+.the{
+    position: absolute;
+    width: 220px;
+    margin-left:200px;
+    margin-top: 150px;
+}
+.girl{
+    position: absolute;
+    width: 220px;
+    margin-left: 270px;
+    margin-top: 340px;
+}
+.best{
+    position: absolute;
+    width: 220px;
+    margin-left: 850px;
+    margin-top: 200px;  
+}
+
+.ob1{
+    display: none;
+}
+
+.second{
+    margin: 2% 250px;
+    line-height: 115%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.small{
+        width: 421px;
+        margin: 46px auto;
+        border-radius: 33px;
+    }
+    .music{
+        width: 455px;
+        margin: 46px auto;
+        border-radius: 33px;
+    }
+    .school{
+        width: 498px;
+        margin: 46px auto;
+        border-radius: 33px;
+    }
+    .family{
+        width: 502px;
+        margin: 46px auto;
+        border-radius: 33px;
+    }
+    .gift{
+        width: 317px;
+        height: 317x;
+        margin: 30px auto;
+        border-radius: 33px;
+    }
+
+video{
+        width: 421px;
+        border-radius: 30px;
+    }
+
 @media screen and (max-width: 400px){
+    .first{
+        overflow: visible;
+        margin-bottom: 300px;
+    }
     .f1{
         position: absolute;
         width: 799px;
@@ -52,6 +175,11 @@ body{
         margin-left: 28px;
         margin-top: 258px;
         rotate: -5deg;
+        animation: the 2s forwards;
+    }
+    @keyframes the {
+        0%{margin-left: -10px;}
+        100%{margin-left: 28px;}
     }
     .girl{
         position: absolute;
@@ -60,6 +188,11 @@ body{
         margin-left: 1px;
         margin-top: 409px;
         rotate: 3deg;
+        animation: girl 2s forwards;
+    }
+    @keyframes girl {
+        0%{margin-left: -40px;}
+        100%{margin-left: 1px;}
     }
     .best{
         position: absolute;
@@ -68,8 +201,19 @@ body{
         margin-left: 238px;
         margin-top: 294px;
         rotate: 3deg;
+        animation: best 2s forwards;
+    }
+    @keyframes best {
+        0%{margin-left: 300px;}
+        100%{margin-left: 238px;}        
     }
     .o{
+        display: none;
+    }
+    .o2{
+        display: none;
+    }
+    .o3{
         display: none;
     }
     .o1{
@@ -79,22 +223,37 @@ body{
     height: 562px;
     margin-top: 437px;
     margin-left: 0px;
+    animation: an 2s forwards;
+    }
+    @keyframes an {
+        0%{margin-top: 537px;}
+        100%{margin-top: 437px;}
     }   
     .p{
     width: 264px;
     height: 339px;
     margin-top: 238px;
     margin-left: 63px;
+    animation: p 4s forwards;
     }
+    @keyframes p {
+        0%{margin-top: 638px;}
+        100%{margin-top: 238px;}
+    } 
     .g{
     width: 329px;
     height: 123px;    
     margin-left: 32px;
     margin-top: 98px;
+    animation: g 2s forwards;
+    }
+    @keyframes g {
+        0%{margin-top: 0px;}
+        100%{margin-top: 98px;}
     }
     .second{
     position: relative;
-    margin:20% auto;
+    margin:0 auto;
     z-index: -999999;
     font-size: 36px;
     text-align: center;
@@ -104,10 +263,12 @@ body{
     }
     .ob1{
         position: absolute;
+        display: block;
         width: 799px;
         height: 562px;
         margin-left: 100px;
         rotate: -22deg;
+        z-index: -999999;
     }
     .text{
         width: 288px;
@@ -151,5 +312,9 @@ body{
         height: 317x;
         margin: 30px auto;
         border-radius: 33px;
+    }
+    video{
+        width: 221px;
+        border-radius: 30px;
     }
 }
